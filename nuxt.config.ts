@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     transpile: lifecycle === "build" ? ["element-plus"] : [],
   },
   routeRules: {
-    "/": { ssr: false },
+    "/": { ssr: true },
     "/**": {ssr: true},
     "/404": { ssr: true },
   },
