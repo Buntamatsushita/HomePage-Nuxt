@@ -17,6 +17,6 @@ export default defineNuxtConfig({
     nojekyll: true, //not working on this version
     fallback: '404.html',
   },
-  ssr: false, //When false
+  ssr: true, //When false
   target: "static", // and static, nuxt generates a SPA
 });
