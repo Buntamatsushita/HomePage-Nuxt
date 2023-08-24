@@ -13,10 +13,13 @@ export default defineNuxtConfig({
   build: {
     transpile: lifecycle === "build" ? ["element-plus"] : [],
   },
-  generate:{
+  generate: {
     nojekyll: true, //not working on this version
-    fallback: '404.html',
+    fallback: "404.html",
   },
   ssr: true, //When false
   target: "static", // and static, nuxt generates a SPA
+  app: {
+    baseURL: "/HomePage-Nuxt/",
+  },
 });
