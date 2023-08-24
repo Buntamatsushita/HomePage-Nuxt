@@ -15,6 +15,6 @@ export default defineNuxtConfig({
   },
   routeRules: {
     "/": { ssr: false },
-    "/**": {static: true}
+    "/404": {prerender: false}
   },
 });
