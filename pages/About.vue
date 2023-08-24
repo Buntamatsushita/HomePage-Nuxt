@@ -170,7 +170,7 @@
                 <el-timeline-item timestamp="2021年6月" placement="top">
                     <el-card>
                         <h4>ITパスポート取得</h4>
-                        <img src="src/Ipass.png" alt="">
+                        <img src="../src/Ipass.png" alt="">
                     </el-card>
                 </el-timeline-item>
                 <el-timeline-item timestamp="2022年3月" placement="top">
