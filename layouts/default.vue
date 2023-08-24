@@ -11,8 +11,15 @@
 
 <style>
 html {
-  background-color: black;
+  background-color: rgb(243, 252, 253);
   height: 100vh;
 }
 
+body {
+  margin: 0%;
+}
+
+main {
+  margin: 10%;
+}
 </style>

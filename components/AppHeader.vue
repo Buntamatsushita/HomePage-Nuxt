@@ -1,9 +1,9 @@
 <template>
     <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" :ellipsis="false" @select="handleSelect">
         <el-menu-item index="0">LOGO</el-menu-item>
-        <div class="flex-grow" />
-        <el-menu-item index="1" to="/Home">Home</el-menu-item>
-        <el-menu-item index="2" to="/About">About</el-menu-item>
+        <div class="flex-grow">
+        <el-menu-item index="1"><nuxt-link to="/Home">Home</nuxt-link></el-menu-item>
+        <el-menu-item index="2" ><nuxt-link to="/About">About</nuxt-link></el-menu-item>
         <el-sub-menu index="3">
             <template #title>Workspace</template>
             <el-menu-item index="3-1">item one</el-menu-item>
@@ -16,6 +16,7 @@
                 <el-menu-item index="3-4-3">item three</el-menu-item>
             </el-sub-menu>
         </el-sub-menu>
+        </div>
     </el-menu>
 </template>
   
