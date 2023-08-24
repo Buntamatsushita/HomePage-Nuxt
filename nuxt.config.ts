@@ -24,8 +24,8 @@ export default defineNuxtConfig({
   },
   routeRules: {
     "/": {
-      ssr: false
+      ssr: false,
+      prerender: false,
      },
   },
-  failOnError: false
 });
