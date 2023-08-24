@@ -23,6 +23,9 @@ export default defineNuxtConfig({
     baseURL: "/HomePage-Nuxt/",
   },
   routeRules: {
-    "/": { ssr: false },
+    "/": {
+      ssr: false
+     },
   },
+  failOnError: false
 });
