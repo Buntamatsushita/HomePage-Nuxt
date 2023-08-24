@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   components: [
     {
       path: "~/components",
-      extensions: [".vue"],
+      extensions: [".vue", ".js", ".ts"],
     },
   ],
   build: {
@@ -21,5 +21,8 @@ export default defineNuxtConfig({
   target: "static", // and static, nuxt generates a SPA
   app: {
     baseURL: "/HomePage-Nuxt/",
+  },
+  routeRules: {
+    "/": { ssr: false },
   },
 });
