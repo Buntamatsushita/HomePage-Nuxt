@@ -1,0 +1,1 @@
+import{_ as s,l as t,k as o,m as e}from"./entry.e84a3bd5.js";const _={},c=e("img",{src:"https://picsum.photos/1920/300",class:"main-img"},null,-1),n=e("h1",null,"This is Home",-1),a=[c,n];function i(l,r){return o(),t("div",null,a)}const d=s(_,[["render",i]]);export{d as default};
