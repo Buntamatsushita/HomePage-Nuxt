@@ -1,0 +1,1 @@
+import{_ as t,k as n,l as o,F as s,m as e}from"./entry.f2d1e0bb.js";const c={},a=e("h1",null,"This is About Page ",-1),r=e("button",null,"Increment",-1);function _(l,u){return n(),o(s,null,[a,r],64)}const m=t(c,[["render",_]]);export{m as default};
