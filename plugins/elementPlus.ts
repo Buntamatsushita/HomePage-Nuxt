@@ -1,6 +1,6 @@
-import ElementPlus from 'element-plus/dist/index.full'
+import { defineNuxtPlugin } from 'nuxt/app';
+import ElementPlus from 'element-plus';
 
-useNuxtApp().vueApp.use(ElementPlus)
-
-
-
+export default defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.vueApp.use(ElementPlus);
+});
