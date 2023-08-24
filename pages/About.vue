@@ -3,7 +3,7 @@
         <h1>|About me</h1>
         <div class="profile">
             <h2>Profile</h2>
-            <img src="src/icon.png" alt="">
+            <img src="../src/icon.png" alt="">
 
             <div class="profile-content">
                 <div class="name">
