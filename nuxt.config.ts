@@ -12,7 +12,6 @@ export default defineNuxtConfig({
   ],
   build: {
     transpile: lifecycle === 'build' ? ['element-plus'] : []
-  }routeRules: {
-    "/": { prerender: false },
   },
+  routeRules: { '/': {ssr: false} },
 })
